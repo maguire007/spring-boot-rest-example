@@ -1,4 +1,3 @@
 FROM anapsix/alpine-java
 LABEL maintainer="maguireb@gmail.com"
-COPY /target/spring-petclinic-1.5.1.jar /home/spring-petclinic-1.5.1.jar
-CMD ["java","-jar","/home/spring-petclinic-1.5.1.jar"]
+COPY target/spring-boot-rest-example-0.5.0.war /opt/target/spring-boot-rest-example-0.5.0.war
